@@ -45,7 +45,7 @@ HASHBYTES ( '<algorithm>', { @input | 'input' } )
 ## <a name="arguments"></a>引數  
 
 `<algorithm>`  
-識別用來雜湊輸入的雜湊演算法。 這是必要的引數，沒有預設值。 必須加上單引號。 從 [!INCLUDE[ssSQL15](../../includes/sssql15-md.md)] 開始，取代 SHA2_256 和 SHA2_512 以外的所有演算法。  
+識別用來雜湊輸入的雜湊演算法。 這是必要的引數，沒有預設值。 必須加上單引號。 從 [!INCLUDE[ssSQL15](../../includes/sssql15-md.md)] 開始，淘汰 SHA2_256 和 SHA2_512 以外的所有演算法。  
   
 `@input`  
 指定含有要雜湊之資料的變數。 `@input` 為 **varchar**、**nvarchar** 或 **varbinary**。  
